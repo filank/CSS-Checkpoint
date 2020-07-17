@@ -1,0 +1,208 @@
+/*top-bot of the page*/
+
+.interne-link{
+    margin: 5px 0;
+}
+.interne-link a{
+    color:gray;
+    text-decoration: none;  
+    margin: 0;
+    text-align: left;
+}
+.interne-link a:hover{
+    color: chocolate;
+}
+
+
+
+/*nav*/
+
+.navmenu{
+    display:flex;
+justify-content: space-between; 
+padding: 0 10px;
+
+
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.nav-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: sans-serif;
+    color:teal;
+    
+
+
+}
+
+.navmenu h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    padding: 0;
+    margin: 0;
+}
+
+.navmenu a:hover{
+    text-decoration: chocolate;
+    color: chocolate;
+}
+
+/*header*/
+
+header {
+  
+    
+    box-sizing: border-box;
+    
+    background-color: rgb(221, 221, 145);
+}
+
+ /*main*/
+
+ main{
+    background-color:rgba(255, 255, 128, .5);
+   
+}
+
+
+.project-section h2{
+ color: white;
+ font-weight: 300;
+ background-color: grey;
+ margin-bottom: 5px;
+ margin-top: 0;
+
+}
+.project-section p {
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Home  */
+
+.project-Home img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+}
+
+/*about*/  
+
+.project-about{
+    display: flex;
+    justify-content: space-between;
+}
+.project-about1{
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+.project-about span{
+    color:grey;
+    font-size:30px;
+
+}
+
+
+/* work*/
+
+.project-work{  
+    display: flex;
+   justify-content:space-evenly;
+   padding-bottom: 20px;
+   
+}
+
+.project-work1{
+   justify-content: space-evenly;
+  
+}
+
+/* Resume grid */
+
+.grid-container{
+    display: grid;
+grid-template-columns: 300px 300px 300px;
+justify-content: space-evenly;
+padding-left: 20px;
+padding-bottom: 20px;
+
+}
+.grid-container img{
+border-radius: 40%
+}
+
+
+
+
+
+ 
+
+/*media*/ 
+
+@media (max-width: 600px) {
+   
+    .nav-links a {
+      font-size: 12px;
+      text-decoration: underline;
+    }
+   
+    
+ 
+    .project-work{
+      flex-wrap: wrap;      
+    }
+    .grid-container{
+        grid-template-columns:300px ;
+        grid-template-rows: auto;
+    }  
+    .project-work1 p{
+        text-align: center;
+    }
+    
+  }
+ 
+
+
+  /*footer*/
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+  footer div {
+    background-color: #e8e8e6;
+
+  }
+  
+  
+  footer span {
+    text-decoration: underline;
+    color: #5b6b7f;
+  }
+  .contactus{
+      text-align: center;
+      padding: 10px 40px;
+      font-size: 20px;
+      color: #363945;
+      margin: 0 0 ;
+      line-height: 60px;
+    }
+
+  
+    
+
+
