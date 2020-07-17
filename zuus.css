@@ -23,6 +23,9 @@ justify-content: space-between;
 padding: 0 10px;
 
 
+
+
+
 }
 
 .nav-links{
@@ -36,7 +39,7 @@ padding: 0 10px;
     text-decoration: none;
     margin: 0 10px;
     font-family: sans-serif;
-    color:teal;
+    color:white;
     
 
 
@@ -44,7 +47,7 @@ padding: 0 10px;
 
 .navmenu h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: teal;
+    color:white;
     padding: 0;
     margin: 0;
 }
@@ -61,24 +64,19 @@ header {
     
     box-sizing: border-box;
     
-    background-color: rgb(221, 221, 145);
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 
  /*main*/
 
  main{
-    background-color:rgba(255, 255, 128, .5);
-   
-}
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);}
 
 
 .project-section h2{
  color: white;
  font-weight: 300;
- background-color: grey;
- margin-bottom: 5px;
- margin-top: 0;
-
+ background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 .project-section p {
     font-family: sans-serif;
@@ -129,6 +127,15 @@ header {
 .project-work1{
    justify-content: space-evenly;
   
+}
+
+.project-work1 p{
+    color: midnightblue;
+
+}
+.project-work-li h3{
+    color: midnightblue;
+    
 }
 
 /* Resume grid */
@@ -184,8 +191,7 @@ border-radius: 40%
     padding: 0;
   }
   footer div {
-    background-color: #e8e8e6;
-
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
   }
   
   
